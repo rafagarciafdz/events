@@ -2,7 +2,7 @@ class CreateEvents < ActiveRecord::Migration
   def change
     create_table :events do |t|
       t.datetime :start
-      t.datetime :end
+      t.datetime :endd
       t.string :title
       t.boolean :is_complete
 
